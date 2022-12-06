@@ -67,6 +67,8 @@ a lot of lifes.</p>
   </li>
 </ul>
 
+<img src="https://res.cloudinary.com/diwvuplis/image/upload/v1670350010/DPS/DPS_system_description_godr12.png" alt="Image for the system descripion">
+
 
 
 
