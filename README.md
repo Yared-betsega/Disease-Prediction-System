@@ -1,7 +1,7 @@
 <h1>Disease-Prediction-System</h1>
 
 <h2>Introduction</h2>
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 It might have happened so many times that you or
 someone yours need doctor’s help immediately, but
 they are not available due to some reasons.The
@@ -10,7 +10,7 @@ and online consultation project. Here, we propose a
 web application that allow users to get instant
 guidance on their disease through an intelligent
 system.
-</p>
+</div>
 
 **Q: What does this project do?**
 
