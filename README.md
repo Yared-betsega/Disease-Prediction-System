@@ -11,6 +11,7 @@ guidance on their disease through an intelligent
 system.
 
 **Q: What does this project do?**
+
 The application is fed with various details
 and the disease associated with those
 details. The application allows users to
