@@ -48,11 +48,13 @@ making which in turn helps save
 a lot of lifes.
 
 <h2>Tools and Technologies</h2>
-Django to build the back-end of the
-website
-python for writing the machine learning
-algorithms
-React.js, Tailwind CSS, HTML to build the
-front-end of the Application
-PostgreSQL for the relational database
-management system
+<ul>
+  <li>Django to build the back-end of the website</li>
+  <li>python for writing the machine learning algorithms</li>
+  <li>React.js, Tailwind CSS, HTML to build the front-end of the Application</li>
+  <li>PostgreSQL for the relational database management system</li>
+</ul>
+
+
+
+
