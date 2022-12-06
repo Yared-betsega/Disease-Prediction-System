@@ -1,4 +1,4 @@
-# Disease-Prediction-System
+<h1>Disease-Prediction-System</h1>
 
 ## Introduction
 It might have happened so many times that you or
@@ -44,3 +44,13 @@ it helps patients get the help they
 need and doctors in their desision
 making which in turn helps save
 a lot of lifes.
+
+2. Tools and Technologies
+Django to build the back-end of the
+website
+python for writing the machine learning
+algorithms
+React.js, Tailwind CSS, HTML to build the
+front-end of the Application
+PostgreSQL for the relational database
+management system
