@@ -1,6 +1,6 @@
 <h1>Disease-Prediction-System</h1>
 
-## Introduction
+<h2>Introduction</h2>
 It might have happened so many times that you or
 someone yours need doctor’s help immediately, but
 they are not available due to some reasons.The
@@ -25,7 +25,7 @@ with the patient’s details. Based on result,
 patient can contact doctors accordingly for
 further treatment.
 
-## Purpose
+<h3>Purpose</h3>
 The purpose of this project is to
 create a platform which uses
 machine learning to predict the
@@ -45,7 +45,7 @@ need and doctors in their desision
 making which in turn helps save
 a lot of lifes.
 
-2. Tools and Technologies
+<h2>Tools and Technologies</h2>
 Django to build the back-end of the
 website
 python for writing the machine learning
