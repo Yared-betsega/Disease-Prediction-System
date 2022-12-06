@@ -24,3 +24,23 @@ accurate illness that could be associated
 with the patient’s details. Based on result,
 patient can contact doctors accordingly for
 further treatment.
+
+## Purpose
+The purpose of this project is to
+create a platform which uses
+machine learning to predict the
+patient's disease based on the
+symptoms provided. This system
+can be really useful to assist
+physicians as well as patients to
+predict diseases based on the
+symptoms of the patient which
+minimizes their mistakes and
+increases the chance of the
+disease being identified correctly.
+A platform as such can be really
+useful in the health sector in that
+it helps patients get the help they
+need and doctors in their desision
+making which in turn helps save
+a lot of lifes.
