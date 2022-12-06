@@ -46,13 +46,27 @@ need and doctors in their desision
 making which in turn helps save
 a lot of lifes.</p>
 
-<h2>Tools and Technologies</h2>
+<h1>Tools and Technologies</h1>
 <ul>
   <li>Django to build the back-end of the website</li>
   <li>python for writing the machine learning algorithms</li>
   <li>React.js, Tailwind CSS, HTML to build the front-end of the Application</li>
   <li>PostgreSQL for the relational database management system</li>
 </ul>
+
+<h1>System Description</h1>
+<ul>
+  <li>Before starting to use the platform, The user needs to create an account to identify whether the user is a patient, a doctor, or an admin.</li>
+  <li>
+    After successful authentication
+    <ul>
+      <li>If the user is a patient, he/she is redirected to the home page where they will be presented with a screen to choose simptoms and get their predicted disease.</li>
+      <li>If the user is a doctor, he/she is redirected to their profile page and can see their history and can give feedback.</li>
+      <li>If the user is an admin, he/she is redirected to the page where they can chose to either manage the users' data or view user's feedback</li>
+    </ul>
+  </li>
+</ul>
+
 
 
 
