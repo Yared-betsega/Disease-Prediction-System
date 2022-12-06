@@ -1,2 +1,12 @@
 # Disease-Prediction-System
-Disease Prediction is a system that is used to predict the diseases from the symptoms which are given by the patients or any user. The system processes the symptoms provided by the user as input and gives the output as the probability of the disease.
+
+## Introduction
+It might have happened so many times that you or
+someone yours need doctor’s help immediately, but
+they are not available due to some reasons.The
+Disease Prediction system is an end user support
+and online consultation project. Here, we propose a
+web application that allow users to get instant
+guidance on their disease through an intelligent
+system.
+
