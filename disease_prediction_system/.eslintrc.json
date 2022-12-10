@@ -19,5 +19,7 @@
   "settings": {
     "html/html-extensions": [".html", ".we"] // consider .html and .we files as HTML
   },
-  "rules": {}
+  "rules": {
+    "react/prop-types": "off"
+  }
 }
