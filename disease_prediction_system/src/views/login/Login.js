@@ -3,7 +3,7 @@ import {
     Link
 } from "react-router-dom"
 import "./login.css"
-import Form from '../../components/Form/Form'
+import LoginForm from '../../components/loginForm/LoginForm'
 export default function Login() {
     return (
         <div className='text-[#5A5A5A] bg-white rounded-3xl font-sans'>
@@ -17,7 +17,7 @@ export default function Login() {
                     </div>
                     <div className='mx-3 my-5'>
                         <div className='my-6'>
-                            <Form/>
+                            <LoginForm/>
                         </div>
                     
                     </div>
@@ -27,7 +27,7 @@ export default function Login() {
                         </p>
                     </div>
                 </div>
-                <div className='hidden md:block md:pl-10 lg:pl-32'>
+                <div className='hidden md:block md:pl-10 lg:pl-28'>
                     <img src="https://res.cloudinary.com/diwvuplis/image/upload/v1670748934/DPS/login/login_jfjta3.jpg" alt="side image here" className='h-full w-full'/>
                 </div>
             </div>
