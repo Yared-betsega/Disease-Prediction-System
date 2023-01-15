@@ -52,7 +52,7 @@
   <ul>
     <li>Django to build the back-end of the website</li>
     <li>python for writing the machine learning algorithms</li>
-    <li>React.js, Tailwind CSS, HTML to build the front-end of the Application</li>
+    <li>HTML, CSS and JavasScript to build the front-end of the Application</li>
     <li>PostgreSQL for the relational database management system</li>
   </ul>
 </div>
