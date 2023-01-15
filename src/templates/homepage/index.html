@@ -17,9 +17,10 @@
 <div>
   <div class="d-flex">
     <div style="background-color: #F7F7F7; padding: 7% 0 7% 7%;" class="w-50 jumbotron">
-      <h3 class="display-4 mb-5">Be your own doctor...</h3>
+      <h3 class="display-4 mb-5">Be Your Own Doctor...</h3>
+      <h4 class="mb-3">Get yourself cured!</h4>
       <font>
-        <p style="opacity: 0.8; text-align: justify;" class="lead mb-5">
+        <p style="opacity: 0.8; text-align: justify; font-size: 1rem;" class="lead mb-5">
           It might have happened so many times that you or someone yours need doctor’s help immediately, but they are
           not available due to some reasons.The Disease Prediction system is an end user support and online consultation
           project. Here, we propose a web application that allow users to get instant guidance on their disease through
@@ -42,7 +43,7 @@
 
       <p class="lead">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Get
-          Start !</button>
+          Started !</button>
       </p>
     </div>
     <div class="w-50 px-5">
@@ -52,7 +53,6 @@
   </div>
 </div>
 
-<br><br><br>
 <div class="container mb-3" style="width:fit-content;">
   <center>
     <h1>Sign-In As</h1>
@@ -62,19 +62,19 @@
   <form>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col">
+        <div class="col shadow p-3 mb-5 bg-body rounded">
           <a href="{% url 'sign_in_admin' %}">
             <img alt="admin" src="{% static 'homepage/admin.png' %}" class="img">
           </a>
         </div>
 
-        <div class="col">
+        <div class="col shadow p-3 mb-5 mx-5 bg-body rounded">
           <a href="{% url 'sign_in_doctor' %}">
             <img alt="doctor" src="{% static 'homepage/doctor.png' %}" class="img">
           </a>
         </div>
 
-        <div class="col">
+        <div class="col shadow p-3 mb-5 bg-body rounded">
           <a href="{% url 'sign_in_patient' %}">
             <img alt="patient" src="{% static 'homepage/patient.png' %}" class="img">
           </a>
@@ -221,48 +221,126 @@
 </div>
 -->
 
-<br><br><br><br>
+<!-- Footer -->
+<footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-between p-4 text-white" style="background-color: #21D192">
+    <!-- Left -->
+    <div class="me-5">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
+    <!-- Right -->
+    <div>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold">Contributors</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+          <p>
+            <a href="#!" class="text-dark">Yared Tsegaye</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">Elsai Deribu</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">Tesfaye Adugna</a>
+        </div>
+        <!-- Grid column -->
 
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Phone numbers</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+          <p>
+            <a href="#!" class="text-dark">+251982985676</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">+251982985676</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">+251982985676</a>
+          </p>
+        </div>
+        <!-- Grid column -->
 
+        <!-- Grid column -->
+        <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"> -->
+          <!-- Links -->
+          <!-- <h6 class="text-uppercase fw-bold">Linked in</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+          <p>
+            <a href="#!" class="text-dark"></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">Become an Affiliate</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark">Help</a>
+          </p>
+        </div> -->
+        <!-- Grid column -->
 
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Contact</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+          <p><i class="fas fa-home mr-3"></i> Addis Ababa, Ethiopia</p>
+          <a href="mailto:yaredtsegaye120@gmail.com"><i class="fas fa-envelope mr-3"></i> yaredtsegaye120@gmail.com</a>
+          <a href="mailto:elsaideribu7@gmail.com"><i class="fas fa-phone mr-3"></i> elsaideribu7@gmail.com</a>
+          <a href="mailto:tesfayeadugna888@gmail.com"><i class="fas fa-print mr-3"></i> tesfayeadugna888@gmail.com</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
 
-
-
-
-
-
-
-
-
-<div id="footer" class="card bg-dark text-white">
-  <div class="card-body">
-    Contact-
-
-    <ul>
-
-      <li>
-        <h5 class="mb-1">Email: yaredtsegaye120@gmail.com</h5>
-        <h5 class="mb-1">Email: elsaideribu7@gmail.com</h5>
-        <h5 class="mb-1">Email: yaredtsegaye120@gmail.com</h5>
-      </li>
-      <li>
-        <h5 class="mb-1">Phone no. +251982985676</h5>
-      </li>
-      <li>
-        <h5 class="mb-1">Address: Addis Ababa, Ethiopia</h5>
-        <!--<div class="footer-copyright text-center">© 2021 Copyright:
-          <a href="#"> homepage</a>
-        </div>-->
-      </li>
-
-    </ul>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2023 Copyright:
+    <a class="text-dark" href="">Disease Prediction System</a>
   </div>
-</div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
-
-
+<!-- End of .container -->
 
 
 
