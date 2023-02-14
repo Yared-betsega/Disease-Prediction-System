@@ -41,8 +41,8 @@
                
                
                 <tr>
-                  <td style="color: yellow;">{{i.patient.name}}</td>
-                  <td style="color: yellow;">{{i.patient.user.email}}</td>
+                  <td style="color: grey;">{{i.patient.name}}</td>
+                  <td style="color: grey;">{{i.patient.user.email}}</td>
                   <td style="width: 200px;">
                   
                     <form action="{% url 'pviewprofile' i.patient.user.username %}" method="GET">
@@ -52,9 +52,9 @@
 
                   </td>
 
-                  <td style="color: yellow;">{{i.diseaseinfo.diseasename}}</td>
-                  <td style="color: yellow;">{{i.consultation_date}}</td>
-                  <td style="color: yellow;">{{i.status}}</td>
+                  <td style="color: grey;">{{i.diseaseinfo.diseasename}}</td>
+                  <td style="color: grey;">{{i.consultation_date}}</td>
+                  <td style="color: grey;">{{i.status}}</td>
 
                   <td>
                     

@@ -193,7 +193,7 @@ img{ max-width:100%;}
 
 
 
-<br><center><h3 style="color: red;"><marquee direction="left_right" behavior="alternate" width=30%>Consultation</marquee></h3>
+<br><center><h3 style="color: rgb(26, 25, 25);"><marquee direction="left_right" behavior="alternate" width=30%>Consultation</marquee></h3>
 </center>
 <br>
 
@@ -207,7 +207,7 @@ img{ max-width:100%;}
 
 {% if user.patient.is_patient  %}
   <div class="container ml-5 mr-5">
-          <button type="button" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#demo"><font color="red">Give Rating and Reviews to Doctor {{consultation.doctor.name}}</font></button>
+          <button type="button" class="btn btn-outline-secondary" data-toggle="collapse" data-target="#demo"><font color="black">Give Rating and Reviews to Doctor {{consultation.doctor.name}}</font></button>
                   <div id="demo" class="collapse">
                       
                     <form action="{% url 'rate_review' consultation.id %}" method="POST"> 
@@ -245,7 +245,7 @@ img{ max-width:100%;}
   </div>
     {% endif %}
   <div class="container mt-4 ml-5 mr-5">
-          <button type="button" class="btn btn-outline-danger mb-4" data-toggle="collapse" data-target="#demo2"><font color="cyan">Close Consultation</font></button>
+          <button type="button" class="btn btn-outline-danger mb-4" data-toggle="collapse" data-target="#demo2"><font color="red">Close Consultation</font></button>
           <div id="demo2" class="collapse">Are you sure to close consultation ?
             <br>
 

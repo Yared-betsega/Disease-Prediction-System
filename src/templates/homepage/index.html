@@ -26,31 +26,28 @@
           project. Here, we propose a web application that allow users to get instant guidance on their disease through
           an intelligent system.
       </font>
-      <!-- It might have happened so many times that you or someone yours need doctor’s help immediately,
-      but they are not available due to some reasons.The Disease Prediction system is an end user
-      support and online consultation project. Here, we propose a web application that allow users
-      to get instant guidance on their disease through an intelligent system. The application is
-      fed with various details and the disease associated with those details.The application allows
-      user to share their disease related issues.It then processes user specific details to check
-      for various illness that could be associated with it.Here we use some intelligent data mining
-      techniques to guess the most accurate illness that could be associated with patient’s details.
-      Based on result, patient can contact doctor accordingly for further treatment. -->
 
       {% if user.is_authenticated %}
-
-
-      {% else %}
-
-      <p class="lead">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Get
-          Started !</button>
-      </p>
     </div>
     <div class="w-50 px-5">
       <img alt="doctors image" src="{% static 'homepage/landingpage.svg' %}">
     </div>
 
   </div>
+</div>
+
+{% else %}
+
+<p class="lead">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Get
+    Started !</button>
+</p>
+</div>
+<div class="w-50 px-5">
+  <img alt="doctors image" src="{% static 'homepage/landingpage.svg' %}">
+</div>
+
+</div>
 </div>
 
 <div class="container mb-3" style="width:fit-content;">
@@ -273,7 +270,8 @@
               yaredtsegaye120@gmail.com</a>
           </p>
           <p>
-            <a style="color: #343A40;" href="mailto:elsaideribu7@gmail.com"><i class="fas fa-phone mr-3"></i> elsaideribu7@gmail.com</a>
+            <a style="color: #343A40;" href="mailto:elsaideribu7@gmail.com"><i class="fas fa-phone mr-3"></i>
+              elsaideribu7@gmail.com</a>
           </p>
           <p>
             <a style="color: #343A40;" href="mailto:tesfayeadugna888@gmail.com"><i class="fas fa-print mr-3"></i>

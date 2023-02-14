@@ -41,8 +41,8 @@
                
                
                 <tr>
-                  <td><font color="yellow">{{i.doctor.name}}</font></td>
-                  <td><font color="yellow">{{i.doctor.user.email}}</font></td>
+                  <td><font color="grey">{{i.doctor.name}}</font></td>
+                  <td><font color="grey">{{i.doctor.user.email}}</font></td>
                   <td>
                   
                     <form action="{% url 'dviewprofile' i.doctor.user.username %}" method="GET">
@@ -52,9 +52,9 @@
 
                   </td>
 
-                  <td><font color="yellow">{{i.diseaseinfo.diseasename}}</font></td>
-                  <td><font color="yellow">{{i.consultation_date}}</font></td>
-                  <td><font color="yellow">{{i.status}}</font></td>
+                  <td><font color="grey">{{i.diseaseinfo.diseasename}}</font></td>
+                  <td><font color="grey">{{i.consultation_date}}</font></td>
+                  <td><font color="grey">{{i.status}}</font></td>
 
                   <td>
                     
